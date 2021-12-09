@@ -17,18 +17,18 @@
   padding-left: 16px;
   color: var(--white-color);
   transition: box-shadow var(--transition-duration-timing-function);
-}
-.subscribe-input:hover,
-.subscribe-input:focus {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-.subscribe-input::placeholder {
-  color: rgba(255, 255, 255, 0.6);
-  font-style: 400;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  align-items: center;
+  &:hover,
+  &:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    align-items: center;
+  }
 }
 .subscribe-button {
   margin-left: 12px;
@@ -42,7 +42,6 @@
   align-items: center;
   cursor: pointer;
 }
-
 .subscribe-icon {
   margin-left: 10px;
 }

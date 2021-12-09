@@ -7,18 +7,17 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   transition: color var(--transition-duration-timing-function);
+  &:hover,
+  &:focus {
+    color: var(--accent-text-color);
+  }
 }
-
 .item-direction {
   display: flex;
   margin-right: 50px;
-}
-.item-direction:last-child {
-  margin-right: 0;
-}
-.link-direction:hover,
-.link-direction:focus {
-  color: var(--accent-text-color);
+  &:last-child {
+    margin-right: 0;
+  }
 }
 .direction-icon {
   margin-right: 10px;

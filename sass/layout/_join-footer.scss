@@ -15,6 +15,9 @@
 .join-item {
   width: 44px;
   height: 44px;
+  & + & {
+    margin-left: 10px;
+  }
 }
 .join-link {
   width: 100%;
@@ -27,11 +30,8 @@
   color: var(--white-color);
   transition: color var(--transition-duration-timing-function),
     background-color var(--transition-duration-timing-function);
-}
-.join-link:hover,
-.join-link:focus {
-  background-color: var(--accent-text-color);
-}
-.join-item + .join-item {
-  margin-left: 10px;
+  &:hover,
+  &:focus {
+    background-color: var(--accent-text-color);
+  }
 }

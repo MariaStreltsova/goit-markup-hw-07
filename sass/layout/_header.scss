@@ -10,11 +10,11 @@
 .header-list {
   display: flex;
   align-items: center;
-}
-.header-list-direction {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
+  &-direction {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
 }
 .site-header {
   border-bottom: 1px solid var(--header-border-color);

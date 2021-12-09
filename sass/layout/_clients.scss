@@ -18,10 +18,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.item-clients + .item-clients {
-  margin-left: 30px;
+  & + & {
+    margin-left: 30px;
+  }
 }
 .link-clients {
   width: 100%;
@@ -34,11 +33,11 @@
   color: #afb1b8;
   transition: color var(--transition-duration-timing-function),
     border-color var(--transition-duration-timing-function);
-}
-.link-clients:hover,
-.link-clients:focus {
-  color: var(--accent-text-color);
-  border-color: var(--accent-text-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-text-color);
+    border-color: var(--accent-text-color);
+  }
 }
 .icon-clients {
   width: 106px;
