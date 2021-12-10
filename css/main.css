@@ -331,6 +331,27 @@ svg {
   color: #afb1b8;
 }
 
+.logo {
+  margin-right: 93px;
+}
+
+.logo__link {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo__accent {
+  color: var(--accent-text-color);
+}
+
+.logo__part-logo--black {
+  color: var(--secondary-logo-color);
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -359,7 +380,11 @@ svg {
   padding-bottom: 25px;
 }
 
-.nav .link-logo {
+.logo {
+  margin-right: 93px;
+}
+
+.logo__link {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -368,16 +393,12 @@ svg {
   text-decoration: none;
 }
 
-.accent-logo {
+.logo__accent {
   color: var(--accent-text-color);
 }
 
-.part-logo {
+.logo__part-logo--black {
   color: var(--secondary-logo-color);
-}
-
-.logo-header {
-  margin-right: 93px;
 }
 
 .list-nav .link {
