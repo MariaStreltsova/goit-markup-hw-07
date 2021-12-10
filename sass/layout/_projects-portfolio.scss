@@ -109,10 +109,9 @@
   height: 100%;
   padding: 63px 24px;
   overflow: auto;
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition: transform var(--transition-duration-timing-function);
   .item-projects:hover & {
-    transform: translateY(0);
+    transform: translateY(-1px);
   }
 }
-

@@ -30,21 +30,6 @@
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
   }
-  &-address {
-    margin-top: 20px;
-    margin-bottom: 9px;
-  }
-  &-item {
-    margin-bottom: 9px;
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
-  &-container {
-    display: flex;
-    justify-content: start;
-    align-items: baseline;
-  }
 }
 .link-footer {
   font-weight: 400;
@@ -60,4 +45,19 @@
 }
 .address-block {
   margin-right: 70px;
+}
+.footer-address {
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+.footer-item {
+  margin-bottom: 9px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.footer-container {
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
 }

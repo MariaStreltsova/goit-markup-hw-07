@@ -1,9 +1,14 @@
 @import "./base/common";
 @import "./utils/vars";
+@import "./utils/hidden";
+
 @import "./components/btn";
 @import "./components/container";
 @import "./components/section";
 @import "./components/svg";
+@import "./components/modal";
+@import "./components/socials";
+
 @import "./layout/header";
 @import "./layout/logo-header";
 @import "./layout/navigation";
@@ -17,5 +22,3 @@
 @import "./layout/join-footer";
 @import "./layout/subscribe-footer";
 @import "./layout/projects-portfolio";
-@import "./components/modal";
-@import "./utils/hidden";
