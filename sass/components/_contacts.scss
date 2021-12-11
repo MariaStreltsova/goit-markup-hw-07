@@ -1,4 +1,16 @@
-.link-direction {
+.contacts-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.contacts-list__item {
+  display: flex;
+  margin-right: 50px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.contacts-list__link {
   display: flex;
   align-items: center;
   color: inherit;
@@ -12,13 +24,6 @@
     color: var(--accent-text-color);
   }
 }
-.item-direction {
-  display: flex;
-  margin-right: 50px;
-  &:last-child {
-    margin-right: 0;
-  }
-}
-.direction-icon {
+.contacts-list__icon {
   margin-right: 10px;
 }
