@@ -28,3 +28,7 @@
 .social-list__link--light {
   color: #afb1b8;
 }
+.social-list__link--dark-bg {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--white-color);
+}

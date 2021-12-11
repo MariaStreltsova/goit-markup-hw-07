@@ -1,4 +1,4 @@
-.subscribe-title {
+.subscribe__title {
   font-style: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -8,7 +8,11 @@
   display: flex;
   text-transform: uppercase;
 }
-.subscribe-input {
+
+.form-field {
+  display: flex;
+}
+.form-field__input {
   width: 350px;
   height: 50px;
   background-color: transparent;
@@ -30,7 +34,8 @@
     align-items: center;
   }
 }
-.subscribe-button {
+
+.form-field__button {
   margin-left: 12px;
   background-color: var(--accent-text-color);
   color: var(--white-color);
@@ -42,9 +47,6 @@
   align-items: center;
   cursor: pointer;
 }
-.subscribe-icon {
+.form-field__icon {
   margin-left: 10px;
-}
-.subscribe-form-field {
-  display: flex;
 }
