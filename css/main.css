@@ -886,13 +886,6 @@ svg {
   margin-top: -30px;
 }
 
-.projects-list .text {
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
-}
-
 .projects-content__title {
   font-weight: 700;
   font-size: 18px;
@@ -900,6 +893,13 @@ svg {
   letter-spacing: 0.06em;
   color: var(--secondary-text-color);
   margin-bottom: 4px;
+}
+
+.projects-content__text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 
 .projects-list__item {
